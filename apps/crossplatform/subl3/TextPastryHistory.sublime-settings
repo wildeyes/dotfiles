@@ -1,0 +1,85 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "36",
+					"stop": "52"
+				},
+				"command": "text_pastry_range",
+				"text": "range 36-52"
+			},
+			"key": "6a68f27e862d972e4aef6ce9b16154bc",
+			"label": "range 36-52"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "36",
+					"stop": "50"
+				},
+				"command": "text_pastry_range",
+				"text": "range 36-50"
+			},
+			"key": "c552bc1cfc374b9c43bf191928d299e1",
+			"label": "range 36-50"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "14",
+					"stop": "35"
+				},
+				"command": "text_pastry_range",
+				"text": "range 14-35"
+			},
+			"key": "694af3956d3e7e4045c71a392e396711",
+			"label": "range 14-35"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"stop": "7"
+				},
+				"command": "text_pastry_range",
+				"text": "range 0-7"
+			},
+			"key": "f1a88fc0cfef692e9ff86e415f20719d",
+			"label": "range 0-7"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "10"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1-10"
+			},
+			"key": "daffea4a9e2df98e1be406b1b25c7769",
+			"label": "range 1-10"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"start": "1",
+			"stop": "10"
+		},
+		"command": "text_pastry_range",
+		"text": "range 1-10"
+	}
+}

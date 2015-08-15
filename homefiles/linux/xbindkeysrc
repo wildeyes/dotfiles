@@ -1,0 +1,12 @@
+"amixer -c 0 set Front 5+"
+  XF86AudioRaiseVolume
+"amixer -c 0 set Front 5-"
+  XF86AudioLowerVolume
+"amixer -c 0 set Front toggle"
+  XF86AudioMute
+"systemctl suspend"
+  m:0x10 + c:150
+"systemctl reboot"
+  XF86Eject
+"xdotool key super+Tab"
+  m:0x18 + c:23

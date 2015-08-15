@@ -1,0 +1,31 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Arduino-like IDE",
+		"Better CoffeeScript",
+		"Coffee2Js",
+		"CoffeeComplete Plus (Autocompletion)",
+		"CSS Format",
+		"CSSLint",
+		"Delete Current File",
+		"EditorConfig",
+		"File Rename",
+		"Git",
+		"HTMLBeautify",
+		"JSONLint",
+		"LiveScript",
+		"LoremIpsum",
+		"MarkdownEditing",
+		"Package Control",
+		"Path Tools",
+		"Pretty JSON",
+		"SCSS",
+		"Six - Future JavaScript Syntax",
+		"SublimeLinter-contrib-htmlhint",
+		"Text Pastry"
+	]
+}
