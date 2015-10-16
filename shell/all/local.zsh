@@ -1,4 +1,4 @@
-unalias md; function md() { mkdir -p $1; cd $1; }
+function md() { mkdir -p $1; cd $1; }
 alias grep='grep -He'
 alias browser=google-chrome-stable
 alias x-www-browser=browser
@@ -6,6 +6,10 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+addcmd() { vim ~/dotfiles/shell/all/local.zsh }
+reload() { source ~/.zshrc }
+beep() { echo -e "\a" }
+function backup() { cp $1 $1.backup }
 function ccopy() { if [[ -z $1 ]]; then _ccopy; else cat $1 | _ccopy; fi }
 function cpaste() { if [[ -z $1 ]]; then _cpaste; else _cpaste > $1; fi }
 function cpl() {
@@ -26,13 +30,4 @@ function reload() {
 }
 zle -N reload reload
 bindkey '^[[15~' reload
-
-
-source $HOME/dotfiles/oh-my-zsh-custom/funcs.zsh
-#save_function cd _old_cd
-
-#function cd() {
-  #_old_cd $@ && ls;
-#}
-
 function runfrom() { cat $1 | percol | xargs; }

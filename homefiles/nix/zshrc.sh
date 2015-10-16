@@ -10,8 +10,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-shellfiles=$HOME/dotfiles/shell/
-for file in $shellfiles/all; do
+shellfiles=$HOME/dotfiles/shell
+for file in $shellfiles/all/*; do
     source $file
 done
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
@@ -30,3 +30,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         # Unknown.
 fi
 export NODE_PATH="/usr/local/lib/node_modules"
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+  export NVM_DIR=~/.nvm
+  source $(brew --prefix nvm)/nvm.sh
